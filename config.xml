@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "smsapp"
+        version     = "1.0.0" >
+
+    <name>SMS</name>
+    <description>SMS application</description>
+    <author href="http://mypersonalwebsite.com" email="lukass1094@gmail.com">
+		Łukasz K
+	</author>
+	<platform name="android" />
+
+    <icon src="img/icon.png" />
+    <splash src="img/splash.png"  width="179" height="256" />
+	
+	<plugin name="cordova-plugin-device" spec="~1.1.4" />
+	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.2" />
+    <plugin spec="https://github.com/cordova-sms/cordova-sms-plugin.git" source="git" />
+
+</widget>
